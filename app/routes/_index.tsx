@@ -9,40 +9,18 @@ export const meta: MetaFunction = () => {
 
 export default function Index() {
   return (
-    <div className="font-sans p-4">
-      <h1 className="text-3xl">Welcome to Remix</h1>
-      <ul className="list-disc mt-4 pl-6 space-y-2">
-        <li>
-          <a
-            className="text-blue-700 underline visited:text-purple-900"
-            target="_blank"
-            href="https://remix.run/start/quickstart"
-            rel="noreferrer"
-          >
-            5m Quick Start
-          </a>
-        </li>
-        <li>
-          <a
-            className="text-blue-700 underline visited:text-purple-900"
-            target="_blank"
-            href="https://remix.run/start/tutorial"
-            rel="noreferrer"
-          >
-            30m Tutorial
-          </a>
-        </li>
-        <li>
-          <a
-            className="text-blue-700 underline visited:text-purple-900"
-            target="_blank"
-            href="https://remix.run/docs"
-            rel="noreferrer"
-          >
-            Remix Docs
-          </a>
-        </li>
-      </ul>
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <div className="max-w-4xl mx-auto p-8 bg-white shadow-lg rounded-lg">
+        <h1 className="text-4xl font-bold text-center text-gray-900">Welcome to My Landing Page</h1>
+        <p className="mt-4 text-center text-gray-600">
+          This is a simple landing page built with Remix, Tailwind CSS, and TypeScript.
+        </p>
+        <div className="mt-8 flex justify-center">
+          <button className="px-6 py-2 bg-blue-600 text-white font-semibold rounded-lg shadow-md hover:bg-blue-700">
+            Get Started
+          </button>
+        </div>
+      </div>
     </div>
   );
 }
