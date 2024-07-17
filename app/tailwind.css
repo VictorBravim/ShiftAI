@@ -9,3 +9,8 @@
 body {
     background-color: black;
 }
+
+.usernone {
+    user-select: none;
+    -webkit-user-drag: none;
+}
