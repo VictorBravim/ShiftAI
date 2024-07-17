@@ -14,18 +14,15 @@ const About: FC = () => {
       </div>
 
       <div className="flex flex-col lg:flex-row gap-8 mt-8">
-        <div className="w-full lg:w-[50%] bg-dark p-32 lg:p-80 rounded-[60px]">
-          <h2 className="text-2xl font-bold">Card 3 (50%)</h2>
-          <p className="mt-4">Conteúdo do card 3.</p>
-        </div>
+        <button className="w-full lg:w-[50%] bg-dark rounded-[65px]">
+        <img src="app/assets/Card3.png" alt="Card1" className="w-full h-auto usernone" />
+        </button>
         <div className="w-full lg:w-[50%] flex flex-col gap-8">
-          <div className="bg-dark py-32 lg:py-64 rounded-[60px]">
-            <h2 className="text-2xl font-bold">Card 4</h2>
-            <p className="mt-4">Conteúdo do card 4.</p>
-          </div>
-          <button className="bg-dark py-32 lg:py-24 rounded-[60px]">
-            <h2 className="text-2xl font-bold">Card 5</h2>
-            <p className="mt-4">Conteúdo do card 5.</p>
+          <button className="bg-dark rounded-[60px]">
+          <img src="app/assets/Card4.png" alt="Card1" className="w-full h-auto usernone" />
+          </button>
+          <button className="bg-dark rounded-[60px]">
+          <img src="app/assets/Card5.png" alt="Card1" className="w-full h-auto usernone" />
           </button>
         </div>
       </div>
