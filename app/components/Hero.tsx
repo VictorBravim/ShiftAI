@@ -26,7 +26,7 @@ const Hero: FC = () => {
             <div className="w-full h-screen flex items-center justify-center p-4">
                 <div className="bg-dark flex flex-row items-center justify-center rounded-[50px] w-full h-full p-4">
                     <div className="bg-dark flex items-end w-[100%] h-full p-12">
-                        <img src="app/assets/Hero.png" alt="image" className="w-full h-[620px]" />
+                        <img src="app/assets/Hero.png" alt="image" className="w-full h-[666px]" />
                     </div>
                     <div className="bg-dark flex justify-end w-[25%] h-full items-end">
                         <button className="px-9 py-11 bg-white text-dark font-bold rounded-full">
