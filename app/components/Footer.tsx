@@ -1,4 +1,6 @@
 import { FC } from "react";
+import { FaFacebook, FaTwitter } from "react-icons/fa";
+import { AiFillInstagram } from "react-icons/ai";
 
 const Footer: FC = () => {
     return (
@@ -15,13 +17,13 @@ const Footer: FC = () => {
                 </div>
                 <div className="flex space-x-6">
                     <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white">
-                        <img src="app/assets/facebook-icon.png" alt="Facebook" className="w-8 h-8"/>
+                    <FaFacebook />
                     </a>
                     <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white">
-                        <img src="app/assets/twitter-icon.png" alt="Twitter" className="w-8 h-8"/>
+                    <FaTwitter />
                     </a>
                     <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white">
-                        <img src="app/assets/instagram-icon.png" alt="Instagram" className="w-8 h-8"/>
+                    <AiFillInstagram />
                     </a>
                 </div>
             </div>

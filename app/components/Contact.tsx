@@ -1,13 +1,14 @@
 import { FC, useState } from "react";
+import { GoArrowLeft, GoArrowRight } from "react-icons/go";
 
 const Contact: FC = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const cards = [
-        { id: 1, title: "Card 1", content: "Conteúdo do card 1" },
-        { id: 2, title: "Card 2", content: "Conteúdo do card 2" },
-        { id: 3, title: "Card 3", content: "Conteúdo do card 3" },
-        { id: 4, title: "Card 4", content: "Conteúdo do card 4" }
+        { id: 1, imageUrl: "app/assets/Slider1.png" },
+        { id: 2, imageUrl: "app/assets/Slider1.png" },
+        { id: 3, imageUrl: "app/assets/Slider1.png" },
+        { id: 4, imageUrl: "app/assets/Slider1.png" }
     ];
 
     const nextSlide = () => {
@@ -22,12 +23,12 @@ const Contact: FC = () => {
         <div className="contact bg-black text-white p-8 h-full pb-96">
             <div className="w-full flex flex-row mb-12">
                 <div className="w-full lg:w-[70%]">
-                    <img src="app/assets/Contact.png" alt="Contact Image" className="w-full h-auto" />
+                    <img src="app/assets/Contact.png" alt="Contact Image" className="w-full h-auto usernone" />
                 </div>
                 <div className="w-[30%] flex justify-center items-end">
                     <div>
-                    <button onClick={prevSlide} className="bg-black text-white border border-white font-bold p-8 rounded-full m-4">Next</button>
-                    <button onClick={nextSlide} className="bg-white text-black font-bold p-8 rounded-full m-4">Next</button>
+                        <button onClick={prevSlide} className="bg-black text-white border border-white font-bold p-8 rounded-full m-4"><GoArrowLeft /></button>
+                        <button onClick={nextSlide} className="bg-white text-black font-bold p-8 rounded-full m-4"><GoArrowRight /></button>
                     </div>
                 </div>
             </div>
@@ -39,10 +40,7 @@ const Contact: FC = () => {
                                 key={card.id}
                                 className={`absolute inset-0 transition-opacity duration-500 ${index === currentSlide ? 'opacity-100' : 'opacity-0'}`}
                             >
-                                <div className="bg-dark p-16 lg:p-32 rounded-[50px]">
-                                    <h2 className="text-2xl font-bold">{card.title}</h2>
-                                    <p className="mt-4">{card.content}</p>
-                                </div>
+                                <img src={card.imageUrl} alt={`Slide ${card.id}`} className="w-full h-auto rounded-[50px] usernone" />
                             </div>
                         ))}
                     </div>

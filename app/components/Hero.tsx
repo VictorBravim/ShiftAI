@@ -1,4 +1,5 @@
 import { FC } from "react";
+import { GoArrowDown, GoArrowRight } from "react-icons/go";
 
 const Hero: FC = () => {
     return (
@@ -6,7 +7,7 @@ const Hero: FC = () => {
             <div className="absolute top-0 left-0 w-full">
                 <nav className="flex justify-between items-center p-12 bg-transparent">
                     <div className="hidden lg:flex rounded-full">
-                        <img src="app/assets/Logo.png" alt="Logo" className="w-24 h-24 object-contain usernone"/>
+                        <img src="app/assets/Logo.png" alt="Logo" className="w-24 h-24 object-contain usernone" />
                     </div>
                     <div className="w-full flex justify-between items-center space-x-0 lg:space-x-12 bg-gradient-to-r from-white to-blue p-7 rounded-full lg:mx-6">
                         <div className="flex space-x-12">
@@ -19,7 +20,7 @@ const Hero: FC = () => {
                         </div>
                     </div>
                     <button className="hidden lg:flex px-8 py-6 bg-blue text-white font-bold rounded-full whitespace-nowrap">
-                        REQUEST SET-UP
+                        REQUEST SET-UP <GoArrowRight />
                     </button>
                 </nav>
             </div>
@@ -30,7 +31,7 @@ const Hero: FC = () => {
                     </div>
                     <div className="bg-dark flex justify-end w-[25%] h-full items-end">
                         <button className="px-9 py-11 bg-white text-dark font-bold rounded-full">
-                            Scroll
+                            <GoArrowDown />
                         </button>
                     </div>
                 </div>
