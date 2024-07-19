@@ -14,7 +14,7 @@ const Hero: FC = () => {
                 >
                     <div className="rounded-full">
                         <motion.img 
-                            src="app/assets/Logo.png" 
+                            src="/Logo.png" 
                             alt="Logo" 
                             className="w-20 lg:w-24 h-20 lg:h-24 object-contain usernone" 
                             initial={{ opacity: 0, y: -20 }}

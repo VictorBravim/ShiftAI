@@ -5,10 +5,8 @@ const Contact: FC = () => {
     const [currentSlide, setCurrentSlide] = useState(0);
 
     const cards = [
-        { id: 1, imageUrl: "app/assets/Slider1.png" },
-        { id: 2, imageUrl: "app/assets/Slider1.png" },
-        { id: 3, imageUrl: "app/assets/Slider1.png" },
-        { id: 4, imageUrl: "app/assets/Slider1.png" }
+        { id: 1, imageUrl: "/Slider1.png" },
+        { id: 2, imageUrl: "/Slider1.png" },
     ];
 
     const nextSlide = () => {
@@ -23,7 +21,7 @@ const Contact: FC = () => {
         <div className="contact bg-black text-white p-4 lg:p-8 h-full pb-28 lg:pb-96">
             <div className="w-full flex flex-col lg:flex-row mb-12">
                 <div className="w-full lg:w-[70%]">
-                    <img src="app/assets/Contact.png" alt="Contact Image" className="w-full h-auto usernone" />
+                    <img src="/Contact.png" alt="Contact Image" className="w-full h-auto usernone" />
                 </div>
                 <div className="w-full lg:w-[30%] flex justify-center items-end mt-8 lg:mt-0">
                     <div>
