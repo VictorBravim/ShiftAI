@@ -7,7 +7,7 @@ const Footer: FC = () => {
         <footer className="bg-black text-white p-4 lg:p-8">
             <div className="flex justify-between items-center border border-white rounded-full">
                 <div className="text-2xl font-bold text-dark bg-blue px-4 py-4 rounded-full">
-                    <img src="app/assets/logo.png" alt="Logo" className="rounded-full w-16 h-16"/>
+                    <img src="/assets/logo.png" alt="Logo" className="rounded-full w-16 h-16"/>
                 </div>
                 <div className="hidden md:flex space-x-12">
                     <button className="text-white font-bold text-sm">Home</button>
