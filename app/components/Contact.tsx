@@ -19,16 +19,18 @@ const Contact: FC = () => {
     };
 
     return (
-        <div className="contact bg-black text-white p-4 min-h-screen">
-            <div className="flex justify-between mt-4">
-                <button onClick={prevSlide} className="bg-blue text-white font-bold p-4 rounded-full">Prev</button>
-                <button onClick={nextSlide} className="bg-blue text-white font-bold p-4 rounded-full">Next</button>
+        <div className="contact bg-black text-white p-4 h-full pb-96">
+            <div className="mb-12">
+                <div className="flex justify-end mt-4 gap-6">
+                    <button onClick={prevSlide} className="bg-blue text-white font-bold p-4 rounded-full">Next</button>
+                    <button onClick={nextSlide} className="bg-blue text-white font-bold p-4 rounded-full">Next</button>
+                </div>
+                <div className="w-full lg:w-1/4 flex items-center justify-center">
+                    <img src="app/assets/contact-image.jpg" alt="Contact Image" className="rounded-[50px] w-full h-auto" />
+                </div>
             </div>
-            <div className="w-full lg:w-1/4 flex items-center justify-center">
-                <img src="app/assets/contact-image.jpg" alt="Contact Image" className="rounded-[50px] w-full h-auto" />
-            </div>
-            <div className="flex flex-col lg:flex-row gap-8">
-                <div className="w-full lg:w-3/4 flex flex-col justify-center">
+            <div className="flex flex-col lg:flex-row justify-center">
+                <div className="w-full flex flex-col justify-center">
                     <div className="relative">
                         {cards.map((card, index) => (
                             <div

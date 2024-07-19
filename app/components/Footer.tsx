@@ -3,8 +3,8 @@ import { FC } from "react";
 const Footer: FC = () => {
     return (
         <footer className="bg-black text-white p-4">
-            <div className="flex justify-between items-center">
-                <div className="text-2xl font-bold text-dark bg-blue px-10 py-10 rounded-full">
+            <div className="flex justify-between items-center border border-white rounded-full">
+                <div className="text-2xl font-bold text-dark bg-blue px-4 py-4 rounded-full">
                     <img src="app/assets/logo.png" alt="Logo" className="rounded-full w-16 h-16"/>
                 </div>
                 <div className="flex space-x-12">
