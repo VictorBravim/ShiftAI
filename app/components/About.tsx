@@ -2,7 +2,7 @@ import { FC } from "react";
 
 const About: FC = () => {
   return (
-    <div className="about bg-black text-white p-4">
+    <div className="about bg-black text-white p-8">
 
       <div className="flex flex-col lg:flex-row gap-8">
         <div className="w-full lg:w-[30%] flex justify-center bg-dark rounded-[60px]">

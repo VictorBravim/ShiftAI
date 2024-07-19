@@ -23,7 +23,7 @@ const Hero: FC = () => {
                     </button>
                 </nav>
             </div>
-            <div className="w-full h-screen flex items-center justify-center p-4">
+            <div className="w-full h-screen flex items-center justify-center p-8">
                 <div className="bg-dark flex flex-row items-center justify-center rounded-[50px] w-full h-full p-4">
                     <div className="bg-dark flex items-end w-[100%] h-full p-12">
                         <img src="app/assets/Hero.png" alt="image" className="w-full h-[666px] usernone" />

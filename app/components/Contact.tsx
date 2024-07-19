@@ -19,14 +19,16 @@ const Contact: FC = () => {
     };
 
     return (
-        <div className="contact bg-black text-white p-4 h-full pb-96">
-            <div className="mb-12">
-                <div className="flex justify-end mt-4 gap-6">
-                    <button onClick={prevSlide} className="bg-blue text-white font-bold p-4 rounded-full">Next</button>
-                    <button onClick={nextSlide} className="bg-blue text-white font-bold p-4 rounded-full">Next</button>
+        <div className="contact bg-black text-white p-8 h-full pb-96">
+            <div className="w-full flex flex-row mb-12">
+                <div className="w-full lg:w-[70%]">
+                    <img src="app/assets/Contact.png" alt="Contact Image" className="w-full h-auto" />
                 </div>
-                <div className="w-full lg:w-1/4 flex items-center justify-center">
-                    <img src="app/assets/contact-image.jpg" alt="Contact Image" className="rounded-[50px] w-full h-auto" />
+                <div className="w-[30%] flex justify-center items-end">
+                    <div>
+                    <button onClick={prevSlide} className="bg-black text-white border border-white font-bold p-8 rounded-full m-4">Next</button>
+                    <button onClick={nextSlide} className="bg-white text-black font-bold p-8 rounded-full m-4">Next</button>
+                    </div>
                 </div>
             </div>
             <div className="flex flex-col lg:flex-row justify-center">
