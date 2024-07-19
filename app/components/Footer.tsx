@@ -15,14 +15,14 @@ const Footer: FC = () => {
                     <button className="text-white font-bold">Services</button>
                     <button className="text-white font-bold">Contact</button>
                 </div>
-                <div className="flex space-x-6">
-                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white">
+                <div className="flex space-x-6 mr-8">
+                    <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="text-white text-3xl">
                     <FaFacebook />
                     </a>
-                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white">
+                    <a href="https://twitter.com" target="_blank" rel="noopener noreferrer" className="text-white text-3xl">
                     <FaTwitter />
                     </a>
-                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white">
+                    <a href="https://instagram.com" target="_blank" rel="noopener noreferrer" className="text-white text-3xl">
                     <AiFillInstagram />
                     </a>
                 </div>

@@ -19,8 +19,8 @@ const Hero: FC = () => {
                             <button className="text-white font-bold">SIGN IN</button>
                         </div>
                     </div>
-                    <button className="hidden lg:flex px-8 py-6 bg-blue text-white font-bold rounded-full whitespace-nowrap">
-                        REQUEST SET-UP <GoArrowRight />
+                    <button className="hidden lg:flex items-center px-8 py-6 bg-blue text-white font-bold rounded-full whitespace-nowrap gap-2">
+                        REQUEST SET-UP <GoArrowRight className="text-2xl" />
                     </button>
                 </nav>
             </div>
@@ -30,7 +30,7 @@ const Hero: FC = () => {
                         <img src="app/assets/Hero.png" alt="image" className="w-full h-[666px] usernone" />
                     </div>
                     <div className="bg-dark flex justify-end w-[25%] h-full items-end">
-                        <button className="px-9 py-11 bg-white text-dark font-bold rounded-full">
+                        <button className="px-9 py-9 bg-white text-dark font-bold rounded-full text-3xl">
                             <GoArrowDown />
                         </button>
                     </div>

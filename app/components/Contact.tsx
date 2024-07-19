@@ -27,8 +27,8 @@ const Contact: FC = () => {
                 </div>
                 <div className="w-[30%] flex justify-center items-end">
                     <div>
-                        <button onClick={prevSlide} className="bg-black text-white border border-white font-bold p-8 rounded-full m-4"><GoArrowLeft /></button>
-                        <button onClick={nextSlide} className="bg-white text-black font-bold p-8 rounded-full m-4"><GoArrowRight /></button>
+                        <button onClick={prevSlide} className="bg-black text-white border border-white text-3xl font-bold p-8 rounded-full m-4"><GoArrowLeft /></button>
+                        <button onClick={nextSlide} className="bg-white text-black text-3xl font-bold p-8 rounded-full m-4"><GoArrowRight /></button>
                     </div>
                 </div>
             </div>
