@@ -74,7 +74,7 @@ const Hero: FC = () => {
                 <div className="bg-dark flex flex-row items-center justify-center rounded-[50px] w-full h-full p-4">
                     <div className="bg-dark flex items-center lg:items-end w-[100%] h-full lg:py-0 py-16 lg:pt-0 pt-32 p-2 lg:p-12">
                         <motion.img 
-                            src="app/assets/Hero.png" 
+                            src="/Hero.png" 
                             alt="image" 
                             className="w-full h-full lg:h-[666px] usernone" 
                             initial={{ opacity: 0, y: 20 }}
